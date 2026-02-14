@@ -1,0 +1,25 @@
+Accounts
+
+AWS account (free tier) — aws.amazon.com
+
+Tools installed
+
+Python — python.org
+pip — comes with Python
+boto3 — pip install boto3
+AWS CLI — pip install awscli
+wget https://releases.hashicorp.com/terraform/1.7.0/terraform_1.7.0_linux_amd64.zip
+unzip terraform_1.7.0_linux_amd64.zip
+sudo mv terraform /usr/local/bin/
+
+AWS credentials configured
+
+Access Key ID
+Secret Access Key
+Region set to us-east-1
+
+Files in your project folder
+
+main.tf — creates the S3 bucket
+upload.py — uploads the file
+hello.txt — the file to upload
