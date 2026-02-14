@@ -10,9 +10,9 @@ aws configure credetials
 
 
 ## Files and what they do:
-`main.tf` | Creates the S3 bucket on AWS 
+`main.tf` to Creates the S3 bucket on AWS 
 
-`upload.py` | Uploads a file to the bucket 
+`upload.py` to Uploads a file to the bucket 
 
 ## Setup 
 1, Install dependancies:
@@ -23,6 +23,7 @@ pip install awscli
 2, configure AWS:
 ```bash
 aws configure
+
 3, install Terraform
 Download from terraform.io/downloads
 
@@ -43,6 +44,7 @@ python upload.py
 4, Destroy when done
 ```bash
 terraform destory
+
 #### Run Locally
 clone the project
 
